@@ -1,0 +1,187 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ecommerce_laravel_react",
+    "dateExported": "2023-07-09T00:23:39.179Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "b6922009-620d-4159-a386-e3816418e377",
+            "name": "auth",
+            "containerId": "",
+            "created": "2023-07-08T17:10:28.582Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "189b1dc8-82f0-4fa5-b7b5-fce15d41d629",
+            "name": "slider",
+            "containerId": "",
+            "created": "2023-07-08T23:39:24.900Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "ffd2a625-c792-40fe-9b43-995b97641e8b",
+            "colId": "94cb13d2-4376-4a1f-9d87-aec78a03fc66",
+            "containerId": "b6922009-620d-4159-a386-e3816418e377",
+            "name": "login",
+            "url": "localhost:8000/api/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-08T17:19:23.775Z",
+            "modified": "2023-07-08T17:20:11.629Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"john@example.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "66c04500-a413-44a5-8626-6cfb6ffc322d",
+            "colId": "94cb13d2-4376-4a1f-9d87-aec78a03fc66",
+            "containerId": "189b1dc8-82f0-4fa5-b7b5-fce15d41d629",
+            "name": "findall",
+            "url": "localhost:8000/api/sliders",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-08T23:39:35.139Z",
+            "modified": "2023-07-08T23:40:13.544Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2ODg4NTk2MDAsImV4cCI6MTY4ODg2MzIwMCwibmJmIjoxNjg4ODU5NjAwLCJqdGkiOiJrdDJHUnk3aGtHNldtazdqIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.HbyTwg4kOY6vnM666z5CY3ZBV4TFkrH4d9bahbn_GIk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "5636a3fa-a2c1-4a1c-bd42-ed01201afd68",
+            "colId": "94cb13d2-4376-4a1f-9d87-aec78a03fc66",
+            "containerId": "189b1dc8-82f0-4fa5-b7b5-fce15d41d629",
+            "name": "create",
+            "url": "localhost:8000/api/sliders",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-08T23:40:21.236Z",
+            "modified": "2023-07-09T00:18:30.219Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nama",
+                        "value": "ssas"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "/home/holyraven/Projects/javascript/frontend-ecommerce/src/assets/images/carousel_2.jpg"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2ODg4NTk2MDAsImV4cCI6MTY4ODg2MzIwMCwibmJmIjoxNjg4ODU5NjAwLCJqdGkiOiJrdDJHUnk3aGtHNldtazdqIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.HbyTwg4kOY6vnM666z5CY3ZBV4TFkrH4d9bahbn_GIk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "0f3cef39-4159-4b82-b2a3-84bc10f5d190",
+            "colId": "94cb13d2-4376-4a1f-9d87-aec78a03fc66",
+            "containerId": "189b1dc8-82f0-4fa5-b7b5-fce15d41d629",
+            "name": "update",
+            "url": "localhost:8000/api/sliders/8",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2023-07-09T00:20:25.113Z",
+            "modified": "2023-07-09T00:22:55.928Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nama",
+                        "value": "berbagi"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "/home/holyraven/Projects/javascript/frontend-ecommerce/src/assets/images/carousel_2.jpg"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2ODg4NTk2MDAsImV4cCI6MTY4ODg2MzIwMCwibmJmIjoxNjg4ODU5NjAwLCJqdGkiOiJrdDJHUnk3aGtHNldtazdqIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.HbyTwg4kOY6vnM666z5CY3ZBV4TFkrH4d9bahbn_GIk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "58996a9e-f956-463e-8dad-14f270a20077",
+            "colId": "94cb13d2-4376-4a1f-9d87-aec78a03fc66",
+            "containerId": "189b1dc8-82f0-4fa5-b7b5-fce15d41d629",
+            "name": "findById",
+            "url": "localhost:8000/api/sliders/7",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-07-08T23:57:39.512Z",
+            "modified": "2023-07-09T00:18:59.553Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nama",
+                        "value": "langsing",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2ODg4NTk2MDAsImV4cCI6MTY4ODg2MzIwMCwibmJmIjoxNjg4ODU5NjAwLCJqdGkiOiJrdDJHUnk3aGtHNldtazdqIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.HbyTwg4kOY6vnM666z5CY3ZBV4TFkrH4d9bahbn_GIk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "fa83095d-6cac-4f93-a3aa-eb758b2f7c95",
+            "colId": "94cb13d2-4376-4a1f-9d87-aec78a03fc66",
+            "containerId": "189b1dc8-82f0-4fa5-b7b5-fce15d41d629",
+            "name": "delete",
+            "url": "localhost:8000/api/sliders/7",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-07-09T00:09:44.153Z",
+            "modified": "2023-07-09T00:19:13.786Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nama",
+                        "value": "langsing",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2ODg4NTk2MDAsImV4cCI6MTY4ODg2MzIwMCwibmJmIjoxNjg4ODU5NjAwLCJqdGkiOiJrdDJHUnk3aGtHNldtazdqIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.HbyTwg4kOY6vnM666z5CY3ZBV4TFkrH4d9bahbn_GIk"
+            },
+            "tests": []
+        }
+    ]
+}
